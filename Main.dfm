@@ -1,0 +1,29 @@
+object FormMain: TFormMain
+  Left = 467
+  Top = 154
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Tetris - The Next Generation'
+  ClientHeight = 460
+  ClientWidth = 440
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  ScreenSnap = True
+  Visible = True
+  OnCloseQuery = FormCloseQuery
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  OnKeyPress = FormKeyPress
+  OnMouseDown = FormMouseDown
+  OnMouseMove = FormMouseMove
+  OnMouseUp = FormMouseUp
+  OnPaint = FormPaint
+  PixelsPerInch = 96
+  TextHeight = 13
+end
